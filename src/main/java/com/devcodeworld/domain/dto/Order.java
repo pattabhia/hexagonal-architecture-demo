@@ -9,6 +9,5 @@ public class Order {
     private String restaurantName;
     private String item;
     private String status;
-
     // Constructors, Getters, Setters
 }

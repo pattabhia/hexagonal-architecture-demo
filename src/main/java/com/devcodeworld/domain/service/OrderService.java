@@ -19,6 +19,7 @@ public class OrderService implements PlaceOrderUsecase, TrackOrderUsecase {
         System.out.println("--CORE EXECUTED WITH INPUT PORT--");
         // Here you would typically call a repository to save the order
         orderRepositoryPort.saveOrder(order);
+
     }
 
     @Override

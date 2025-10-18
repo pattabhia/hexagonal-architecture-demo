@@ -21,7 +21,6 @@ public class OrderKafkaConsumer {
         Order order = mapper.readValue(message, Order.class);
         placeOrderUseCase.placeOrder(order);
         System.out.println("Order placed via Kafka");
-
     }
 
 }

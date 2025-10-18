@@ -18,7 +18,6 @@ public class JpaOrderRepository implements OrderRepositoryPort {
         System.out.println("--OUTPUT ADAPTER EXECUTED WITH OUTPUT PORT--");
         repository.save(mapToEntity(order));
     }
-
     @Override
     public String findById(String orderId) {
         OrderEntity entity = repository.findById(orderId).orElseThrow();

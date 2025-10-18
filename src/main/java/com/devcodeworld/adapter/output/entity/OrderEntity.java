@@ -12,7 +12,6 @@ public class OrderEntity {
 
     @Id
     private String orderId;
-
     private String customerName;
     private String restaurantName;
     private String item;

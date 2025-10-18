@@ -5,4 +5,5 @@ import com.devcodeworld.domain.dto.Order;
 public interface PlaceOrderUsecase {
 
     void placeOrder(Order order);
+
 }

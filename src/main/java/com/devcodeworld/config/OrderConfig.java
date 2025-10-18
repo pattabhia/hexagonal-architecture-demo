@@ -12,4 +12,5 @@ public class OrderConfig {
     public OrderService orderService(OrderRepositoryPort repository) {
         return new OrderService(repository);
     }
+
 }

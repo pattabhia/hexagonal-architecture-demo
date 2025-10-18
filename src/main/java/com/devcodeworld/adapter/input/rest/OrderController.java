@@ -22,10 +22,7 @@ public class OrderController {
         placeOrderUsecase.placeOrder(order);
         System.out.println("--INPUT ADAPTER EXECUTED--");
         return ResponseEntity.ok("Order placed");
-
     }
-
-
 
     @GetMapping("/track/{orderId}")
     public ResponseEntity<String> trackOrder(@PathVariable String orderId) {
