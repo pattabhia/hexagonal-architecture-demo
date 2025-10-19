@@ -1,2 +1,40 @@
-# Auto detect text files and perform LF normalization
+# Auto detect text files and normalize line endings to LF
 * text=auto
+
+# Text files
+*.md text eol=lf
+*.js text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Windows batch files
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.pdf binary
+*.xlsx binary
+*.xls binary
+```
+
+**For Mac-only projects**, you could use a minimal version:
+```
+* text=auto
+*.md text
+*.js text
+*.py text
